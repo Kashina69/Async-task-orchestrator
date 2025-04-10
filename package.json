@@ -1,0 +1,40 @@
+{
+  "name": "async-task-orchestrator",
+  "version": "1.0.0",
+  "description": "A Node.js system that handles heavy background jobs using `worker_threads`, without polling or WebSockets.",
+  "main": "./index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node ./simulator/simulate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kashina69/Async-task-orchestrator.git"
+  },
+  "type":"module",
+  "keywords": [
+    "async",
+    "javascript",
+    "node.js",
+    "queue",
+    "heavy",
+    "load",
+    "orchestrator"
+  ],
+  "author": "prince rawat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kashina69/Async-task-orchestrator/issues"
+  },
+  "homepage": "https://github.com/Kashina69/Async-task-orchestrator#readme",
+  "dependencies": {
+    "and": "^0.0.3",
+    "axios": "^1.8.4",
+    "chalk": "^5.4.1",
+    "express": "^5.1.0",
+    "uuid": "^11.1.0"
+  }
+}
